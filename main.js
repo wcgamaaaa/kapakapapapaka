@@ -1,16 +1,16 @@
 function criarCartao(Categoria,Pergunta,Resposta){
- let container = document.getElementById('container');
- let cartao = document.createElement('articicle');
- cartao.className = 'cartao';
- cartao.innerHTML =  `
- <div class="conteudo-cartao">
- <h3>Categorias</h3>
- <div class="pergunta-cartao">
+  let container = document.getElementById('container');
+  let cartao = document.createElement('articicle');
+   cartao.className = 'cartao';
+   cartao.innerHTML =  `
+  <div class="conteudo-cartao">
+  <h3>Categorias</h3>
+  <div class="pergunta-cartao">
     <p>pergunta</p>
- </div>
- <div class="resposta-cartao">
+  </div>
+  <div class="resposta-cartao">
     <p>resposta</p>
- </div>
+  </div>
 </div>
 `
 container.appendChild(cartao);
