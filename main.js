@@ -13,5 +13,12 @@ function criarCartao(Categoria,Pergunta,Resposta){
     </div>
 </div>
    `
+   let RespostaEstaInvisivel = false;
+   function viracartao(){
+    RespostaEstaInvisivel = !RespostaEstaInvisivel;
+    cartao.classList.toggle('active', RespostaEstaInvisivel);
+   }
+   cartao.addEventListener('click', viracartao);
+   
    container.appendChild(cartao);
 }
