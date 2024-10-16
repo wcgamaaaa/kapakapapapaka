@@ -31,14 +31,14 @@ text-align: center;
     margin: 1rem;
     height: 20rem;
 }
-.conteudo-cartão{
+.conteudo-cartao{
     background-color: var(--cartao-frente);
     text-align: center;
     height: 100%;
     transform-style: preserve-3d;
 transition: transform 300ms ease-in-out;    
 }
-.conteudo-cartão h3{
+.conteudo-cartao h3{
     color: var(--destaque);
     border: 1px solid var(--destaque);
     position: absolute;
@@ -48,7 +48,7 @@ transition: transform 300ms ease-in-out;
     font-size: 1vw;
     backface-visibility: hidden;
 }
-.conteudo-cartão p{
+.conteudo-cartao p{
     margin-top: 4rem;
     font-size: 1.4rem;
     padding: 2rem;
@@ -60,6 +60,6 @@ transition: transform 300ms ease-in-out;
     font-weight: 700;
     color: var(--destaque);
 }
-.cartao:hover .conteudo-cartão{
+.cartao:hover .conteudo-cartao{
     transform: rotateY(180deg);
 }
