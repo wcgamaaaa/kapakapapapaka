@@ -78,7 +78,7 @@ transition: transform 300ms ease-in-out;
 }
 #container{
     display: grid;
-    gap: 3rem;
+    gap: 5rem;
     padding: 20px;
 }
 .conteudo-cartao{
