@@ -32,5 +32,5 @@ text-align: center;
     border: 1px solid var(--preto);
 }
 .conteudo-cartao:hover{
-    transform: scale(1,0t);
+    transform: scale(1,0);
 }
