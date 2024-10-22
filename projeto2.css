@@ -81,3 +81,8 @@ transition: transform 300ms ease-in-out;
     gap: 3rem;
     padding: 20px;
 }
+.conteudo-cartao{
+    padding: 40px;
+    background-color: var(--cartao-frente);
+    box-shadow: 7px 7px 7px var(--preto);
+}
