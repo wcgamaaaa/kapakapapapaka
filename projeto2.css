@@ -86,3 +86,6 @@ transition: transform 300ms ease-in-out;
     background-color: var(--cartao-frente);
     box-shadow: 9px 9px 9px var(--preto);
 }
+.conteudo-cartao:hover{
+    transform: scale(0,3);
+}
