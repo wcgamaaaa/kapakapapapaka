@@ -75,3 +75,8 @@ transition: transform 300ms ease-in-out;
     background-color: var(--cartao-verso);
     border: 2px solid var(--destaque);
 }
+#container{
+    display: grid;
+    gap: 3rem;
+    padding: 20px;
+}
