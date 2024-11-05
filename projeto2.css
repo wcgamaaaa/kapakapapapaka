@@ -14,7 +14,7 @@ body{
 footer{
     position: fixed;
 bottom: 0;
-background-color: var(--branco);
+background-color: var(--preto);
 color: var(--branco);
 width: 100%;
 text-align: center;
@@ -27,7 +27,7 @@ text-align: center;
 }
 .conteudo-cartao{
     padding: 40px;
-    background-color: var(--cartao-frente);
+    background-color: var(--branco);
     box-shadow: 9px 9px 9px var(--preto);
     border: 1px solid var(--preto);
     border-radius: 10px;
